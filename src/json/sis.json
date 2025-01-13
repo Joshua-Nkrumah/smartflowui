@@ -1,0 +1,193 @@
+[
+  {
+    "MenuGroup": "Overview",
+    "MenuClass": null,
+    "Rank": "1",
+    "Url": "/sis/dashboard",
+    "Icon": "dashboard",
+    "Name": "SIS Dashboard",
+    "Caption": "SIS Dashboard",
+    "IsExpandable": false
+  },
+  {
+    "MenuGroup": "Student",
+    "MenuClass": null,
+    "Rank": "2",
+    "Url": null,
+    "Icon": "person",
+    "Name": "Student Info",
+    "Caption": "Student Information",
+    "IsExpandable": true,
+    "SubMenus": [
+      {
+        "Url": "/sis/student-profiles",
+        "Icon": "account_circle",
+        "Name": "Student Profiles",
+        "Caption": "View Student Profiles",
+        "Rank": "1"
+      },
+      {
+        "Url": "/sis/student-category",
+        "Icon": "category",
+        "Name": "Student Categories",
+        "Caption": "Manage Student Categories",
+        "Rank": "2"
+      },
+      {
+        "Url": "/sis/guardian-profile",
+        "Icon": "family_restroom",
+        "Name": "Guardian Information",
+        "Caption": "Manage Guardian Information",
+        "Rank": "3"
+      },
+      {
+        "Url": "/sis/student-attendance",
+        "Icon": "how_to_reg",
+        "Name": "Student Attendance",
+        "Caption": "Track Student Attendance",
+        "Rank": "4"
+      }
+    ]
+  },
+  {
+    "MenuGroup": "Reporting",
+    "MenuClass": null,
+    "Rank": "3",
+    "Url": null,
+    "Icon": "assessment",
+    "Name": "Report Directory",
+    "Caption": "View Reports",
+    "IsExpandable": true,
+    "SubMenus": [
+      {
+        "Url": "/sis/student-report",
+        "Icon": "insert_chart",
+        "Name": "Student Reports",
+        "Caption": "View Student Reports",
+        "Rank": "1"
+      },
+      {
+        "Url": "/sis/admission-report",
+        "Icon": "assignment",
+        "Name": "Admission Reports",
+        "Caption": "View Admission Reports",
+        "Rank": "2"
+      },
+      {
+        "Url": "/sis/attendance-report",
+        "Icon": "how_to_reg",
+        "Name": "Attendance Reports",
+        "Caption": "View Attendance Reports",
+        "Rank": "3"
+      },
+      {
+        "Url": "/sis/disciplinary-report",
+        "Icon": "report",
+        "Name": "Disciplinary Reports",
+        "Caption": "View Disciplinary Reports",
+        "Rank": "4"
+      },
+      {
+        "Url": "/sis/progress-report",
+        "Icon": "trending_up",
+        "Name": "Progress Reports",
+        "Caption": "View Student Progress Reports",
+        "Rank": "5"
+      },
+      {
+        "Url": "/sis/fee-report",
+        "Icon": "monetization_on",
+        "Name": "Fee Payment Reports",
+        "Caption": "View Fee Payment Reports",
+        "Rank": "6"
+      },
+      {
+        "Url": "/sis/library-report",
+        "Icon": "local_library",
+        "Name": "Library Reports",
+        "Caption": "View Library Reports",
+        "Rank": "7"
+      },
+      {
+        "Url": "/sis/exam-report",
+        "Icon": "description",
+        "Name": "Exam Reports",
+        "Caption": "View Exam Performance",
+        "Rank": "8"
+      }
+    ]
+  },
+  {
+    "MenuGroup": "Schedules",
+    "MenuClass": null,
+    "Rank": "4",
+    "Url": null,
+    "Icon": "schedule",
+    "Name": "Class Schedules",
+    "Caption": "View Class Schedules",
+    "IsExpandable": true,
+    "SubMenus": [
+      {
+        "Url": "/sis/timetables",
+        "Icon": "event",
+        "Name": "Timetables",
+        "Caption": "Manage Class Timetables",
+        "Rank": "1"
+      },
+      {
+        "Url": "/sis/exam-schedules",
+        "Icon": "schedule",
+        "Name": "Exam Schedules",
+        "Caption": "Manage Exam Schedules",
+        "Rank": "2"
+      },
+      {
+        "Url": "/sis/event-schedules",
+        "Icon": "event_note",
+        "Name": "Event Schedules",
+        "Caption": "Manage School Events",
+        "Rank": "3"
+      }
+    ]
+  },
+  {
+    "MenuGroup": "Attendance",
+    "MenuClass": null,
+    "Rank": "5",
+    "Url": null,
+    "Icon": "check_circle",
+    "Name": "Attendance Management",
+    "Caption": "Manage Attendance",
+    "IsExpandable": true,
+    "SubMenus": [
+      {
+        "Url": "/sis/daily-attendance",
+        "Icon": "check_box",
+        "Name": "Daily Attendance",
+        "Caption": "Track Daily Attendance",
+        "Rank": "1"
+      },
+      {
+        "Url": "/sis/attendance-reports",
+        "Icon": "fact_check",
+        "Name": "Attendance Reports",
+        "Caption": "View Attendance Reports",
+        "Rank": "2"
+      },
+      {
+        "Url": "/sis/late-arrivals",
+        "Icon": "watch_later",
+        "Name": "Late Arrivals",
+        "Caption": "Track Late Arrivals",
+        "Rank": "3"
+      },
+      {
+        "Url": "/sis/absenteeism",
+        "Icon": "highlight_off",
+        "Name": "Absenteeism",
+        "Caption": "Monitor Absenteeism",
+        "Rank": "4"
+      }
+    ]
+  }
+]

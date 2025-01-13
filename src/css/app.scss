@@ -1,0 +1,136 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins-Regular.woff2') format(woff2),
+    url('/fonts/Poppins-Regular.woff') format(woff);
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  font-family: 'Poppins';
+}
+
+// .bg-primary-gradient {
+//   background: linear-gradient(-45deg, #1470e7, #1470e7) !important;
+// }
+
+.bg-primary-gradient {
+  background: linear-gradient(-45deg, #e76814, #e87c32) !important;
+}
+
+
+.header-shadow {
+  box-shadow: 0 0 5px rgba(18, 23, 39, 0.5);
+}
+
+.left-sidebar-shadow {
+  box-shadow: 4px 4px 10px rgba(69, 65, 78, 0.06);
+  width: 90rem;
+}
+
+.background {
+  background: #fafafa;
+  margin-top: -2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.background-color {
+  background: #fafafa;
+}
+
+.card-shadow {
+  box-shadow: 4px 8px 20px 0 rgba(69, 65, 78, 0.2);
+}
+
+body {
+  background: #fafafa;
+}
+
+.bg-secondary-alternate {
+  background: #374044;
+}
+
+.cut-text {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 160px;
+  white-space: nowrap;
+}
+
+.text-brand-white {
+  color: #ffffff !important;
+}
+
+.text-brand-dark {
+  color: #333 !important;
+}
+.bg-brand {
+  background: #a2aa33 !important;
+}
+
+.bg-brand-yellow-light {
+  background-color: #fff59d !important;
+}
+
+.bg-brand-blue-light {
+  background-color: #1976d2 !important;
+}
+
+.primary-color {
+  background-color: #ff851b  !important;
+}
+
+.primary-color-gradient {
+  background: linear-gradient(90deg, #ffffff, #252525);
+}
+
+
+.text-primary-color {
+  color: #122e49 !important;
+}
+
+.primary-color-light {
+  background-color: #ff851b  !important;
+}
+.primary-color-deep {
+  background-color: #fa7500 !important;
+}
+.text-primary-color-deep {
+  color: #ff8112 !important;
+}
+.secondary-color {
+  background-color: #f1c40f !important;
+}
+
+.text-white {
+  color: #ffffff !important;
+}
+
+.bg-white {
+  background-color: #ffffff !important;
+}
+
+// Primary Color: #3498db (Blue)
+// Secondary Color: #ffffff (White)
+// Accent Color: #2980b9 (Slightly darker blue)
+// Modern Green and Gray:
+
+// Primary Color: #2ecc71 (Green)
+// Secondary Color: #95a5a6 (Gray)
+// Accent Color: #27ae60 (Slightly darker green)
+// Neutral and Calm:
+
+// Primary Color: #ecf0f1 (Light Gray)
+// Secondary Color: #bdc3c7 (Silver)
+// Accent Color: #34495e (Dark Grayish Blue)
+// Energetic and Vibrant:
+
+// Primary Color: #f39c12 (Orange)
+// Secondary Color: #ecf0f1 (Light Gray)
+// Accent Color: #e67e22 (Slightly darker orange)
+// Classic Navy and Gold:
+
+// Primary Color: #001f3f (Navy Blue)
+// Secondary Color: #f1c40f (Gold)
+// Accent Color: #ff851b (Slightly darker orange)

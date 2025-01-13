@@ -1,0 +1,123 @@
+// {
+//         "Url": "/sis/student-admission",
+//         "Icon": "assignment_ind",
+//         "Name": "Student Admission",
+//         "Caption": "Handle Student Admissions",
+//         "Rank": "4"
+//       },
+
+
+
+// {
+//   "Url": "/sis/student-discipline",
+//   "Icon": "gavel",
+//   "Name": "Disciplinary Actions",
+//   "Caption": "Manage Disciplinary Records",
+//   "Rank": "5"
+// },
+// {
+//   "Url": "/sis/student-progress",
+//   "Icon": "trending_up",
+//   "Name": "Progress Reports",
+//   "Caption": "View Student Progress Reports",
+//   "Rank": "6"
+// },
+
+// {
+//   "Url": "/sis/student-medical",
+//   "Icon": "medical_services",
+//   "Name": "Medical Records",
+//   "Caption": "Manage Student Medical Records",
+//   "Rank": "8"
+// },
+// {
+//   "Url": "/sis/student-transfer",
+//   "Icon": "transfer_within_a_station",
+//   "Name": "Transfer Students",
+//   "Caption": "Manage Student Transfers",
+//   "Rank": "9"
+// }
+
+
+
+
+// {
+//   "MenuGroup": "Fee Management",
+//   "MenuClass": null,
+//   "Rank": "6",
+//   "Url": null,
+//   "Icon": "account_balance_wallet",
+//   "Name": "Fee Management",
+//   "Caption": "Manage Student Fees",
+//   "IsExpandable": true,
+//   "SubMenus": [
+//     {
+//       "Url": "/sis/fee-structure",
+//       "Icon": "table_chart",
+//       "Name": "Fee Structure",
+//       "Caption": "Define Fee Structure",
+//       "Rank": "1"
+//     },
+//     {
+//       "Url": "/sis/payment-history",
+//       "Icon": "receipt",
+//       "Name": "Payment History",
+//       "Caption": "View Payment History",
+//       "Rank": "2"
+//     },
+//     {
+//       "Url": "/sis/invoice-generation",
+//       "Icon": "description",
+//       "Name": "Generate Invoices",
+//       "Caption": "Create Fee Invoices",
+//       "Rank": "3"
+//     },
+//     {
+//       "Url": "/sis/outstanding-fees",
+//       "Icon": "warning",
+//       "Name": "Outstanding Fees",
+//       "Caption": "Track Unpaid Fees",
+//       "Rank": "4"
+//     }
+//   ]
+// },
+// {
+//   "MenuGroup": "Library",
+//   "MenuClass": null,
+//   "Rank": "7",
+//   "Url": null,
+//   "Icon": "local_library",
+//   "Name": "Library Management",
+//   "Caption": "Manage Library",
+//   "IsExpandable": true,
+//   "SubMenus": [
+//     {
+//       "Url": "/sis/library-books",
+//       "Icon": "menu_book",
+//       "Name": "Books",
+//       "Caption": "Manage Library Books",
+//       "Rank": "1"
+//     },
+//     {
+//       "Url": "/sis/issue-books",
+//       "Icon": "assignment_returned",
+//       "Name": "Issue Books",
+//       "Caption": "Issue Books to Students",
+//       "Rank": "2"
+//     },
+//     {
+//       "Url": "/sis/return-books",
+//       "Icon": "assignment_turned_in",
+//       "Name": "Return Books",
+//       "Caption": "Manage Book Returns",
+//       "Rank": "3"
+//     },
+//     {
+//       "Url": "/sis/library-reports",
+//       "Icon": "bar_chart",
+//       "Name": "Library Reports",
+//       "Caption": "View Library Usage Reports",
+//       "Rank": "4"
+//     }
+//   ]
+// }

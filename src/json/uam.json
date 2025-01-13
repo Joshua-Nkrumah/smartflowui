@@ -1,0 +1,98 @@
+[
+  {
+    "MenuGroup": "User",
+    "Rank": "1",
+    "MenuClass": null,
+    "Url": "/uam/user-manager",
+    "Icon": "fa-solid fa-users",
+    "Name": "User Manager",
+    "Caption": "User Manager",
+    "IsExpandable": false
+  },
+  {
+    "MenuGroup": "User",
+    "MenuClass": null,
+    "Rank": "2",
+    "Url": "/uam/user_activity",
+    "Icon": "local_activity",
+    "Name": "User Activity",
+    "Caption": "User Activity",
+    "IsExpandable": false
+  },
+  {
+    "MenuGroup": "Roles and Permissions",
+    "MenuClass": null,
+    "Rank": "3",
+    "Url": null,
+    "Icon": "subscriptions",
+    "Name": "Access Control",
+    "Caption": "Access Control",
+    "IsExpandable": true,
+    "SubMenus": [
+      {
+        "Url": "/uam/roles",
+        "Icon": "attribution",
+        "Name": "Roles",
+        "Caption": "Roles",
+        "Rank": "1"
+      },
+      {
+        "Url": "/uam/apps",
+        "Icon": "apps",
+        "Name": "Apps",
+        "Caption": "Apps",
+        "Rank": "2"
+      },
+      {
+        "Url": "/uam/category",
+        "Icon": "o_category",
+        "Name": "App Categories",
+        "Caption": "App Categories",
+        "Rank": "3"
+      },
+      {
+        "Url": "/uam/permissions",
+        "Icon": "o_circle",
+        "Name": "Permissions",
+        "Caption": "Permissions",
+        "Rank": "4"
+      }
+    ]
+  },
+  {
+    "MenuGroup": "Institution and Subscriptions",
+    "MenuClass": null,
+    "Rank": "4",
+    "Url": "/uam/institutions",
+    "Icon": "o_diversity_1",
+    "Name": "Institutions",
+    "Caption": "Institutions",
+    "IsExpandable": false
+  },
+  {
+    "MenuGroup": "Institution and Subscriptions",
+    "Rank": "5",
+    "MenuClass": null,
+    "Url": null,
+    "Icon": "fa-solid fa-layer-group",
+    "Name": "Subscriptions",
+    "Caption": "Subscriptions",
+    "IsExpandable": true,
+    "SubMenus": [
+      {
+        "Url": "/uam/subscription-plans",
+        "Icon": "fa-solid fa-gift fa-xl",
+        "Name": "Plans and Features",
+        "Caption": "Plans and Features",
+        "Rank": "1"
+      },
+      {
+        "Url": "/uam/institution-subscriptions",
+        "Icon": "apps",
+        "Name": "Institution Subscriptions",
+        "Caption": "Institution Subscriptions",
+        "Rank": "2"
+      }
+    ]
+  }
+]

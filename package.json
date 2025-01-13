@@ -1,0 +1,59 @@
+{
+  "name": "occ-welfare-ui",
+  "version": "0.0.1",
+  "description": "A School Management Platform designed with love by Cleverchap",
+  "productName": "Cleverchap",
+  "author": "Joshua Nkrumah-Buadu <joshuankrumahbuadu@gmail.com> @ Webfrest Technologies",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.ts,.vue ./",
+    "format": "prettier --write \"**/*.{js,ts,vue,scss,html,md,json}\" --ignore-path .gitignore",
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev",
+    "build": "quasar build"
+  },
+  "dependencies": {
+    "@chenfengyuan/vue-qrcode": "^2.0.0",
+    "@quasar/extras": "^1.16.4",
+    "apexcharts": "^3.35.5",
+    "axios": "^1.2.1",
+    "chart.js": "^3.9.1",
+    "color": "^4.2.3",
+    "echarts": "^5.5.1",
+    "jscharting": "^3.4.0",
+    "luxon": "^3.4.4",
+    "pinia": "^2.0.11",
+    "print-js": "^1.6.0",
+    "qrcode": "^1.5.3",
+    "quasar": "^2.6.0",
+    "string-to-color": "^2.2.2",
+    "vue": "^3.4.31",
+    "vue-chartjs": "^4.1.2",
+    "vue-echarts": "^7.0.3",
+    "vue-i18n": "^9.2.2",
+    "vue-router": "^4.0.0",
+    "vue3-apexcharts": "^1.4.4",
+    "vuejs3-datepicker": "^1.0.16"
+  },
+  "devDependencies": {
+    "@intlify/vite-plugin-vue-i18n": "^3.3.1",
+    "@quasar/app-vite": "^1.3.0",
+    "@types/color": "^3.0.3",
+    "@types/luxon": "^3.4.2",
+    "@types/node": "^12.20.21",
+    "@typescript-eslint/eslint-plugin": "^5.10.0",
+    "@typescript-eslint/parser": "^5.10.0",
+    "autoprefixer": "^10.4.2",
+    "dotenv": "^16.4.5",
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.4"
+  },
+  "engines": {
+    "node": "^18 || ^16 || ^14.19",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
